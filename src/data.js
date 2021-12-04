@@ -293,6 +293,17 @@ const data = {
             name:"Hoàng Giang",
             description: "Gia đình tôi rất thích sản phẩm này, chúng tôi sẽ chụp những bức ảnh thật đẹp gửi cho shop"
         },
+    ],
+    "footerInfo": [
+       {
+        name : "Công ty TNHH HBK Việt Nam",
+        address : "Địa chỉ : SN 16 Ngõ 320 Định Công Hoàng Mai Hà Nội",
+        phone : "Hotline : 0969468988",
+        mail : "aogiadinhmomi@gmail.com"
+       },
+       {
+        link : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.266035678267!2d105.82965795063494!3d20.98197039468098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac5f1e471ff7%3A0x21b7f2a6c18d4435!2zMzIwIMSQ4buLbmggQ8O0bmcsIFRoYW5oIFh1w6JuLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1638602904051!5m2!1svi!2s"
+       }
     ]
 }
 export default data;

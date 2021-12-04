@@ -10,6 +10,7 @@ import banner from './banner';
 import Hotsales from './Hotsales'
 import Feedback from './Feedback';
 import Header from './Header'
+import Footer from './Footer'
 function App() {
   /// danh sach san pham theo dieu cate
   const [memuItems, setMenuItems] = useState(data.product)
@@ -37,7 +38,8 @@ function App() {
   }
   // danh sach feefback
   const [feedBackBase, setFeedBack] = useState(data.feedback)
-
+  // footer
+  const [fooTer, setFooTer] = useState(data.footerInfo)
   return (
     <div className="App">
       <Header />
@@ -48,7 +50,7 @@ function App() {
         <Hotsales hotItem={hotItem} />
         <Feedback feedBackBase={feedBackBase} />
       </div>
-
+      <Footer fooTer={fooTer} width="800" height="600" />
     </div>
   );
 }

@@ -1,11 +1,113 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.logo {
+  text-align: center;
+}
+.clear {
+  clear: left;
+}
+
+.slide-img {
+  margin: 20px 0px;
+  width: 100%;
+}
+.row , 
+.feedback-box,
+.hotsales-items{
+  margin: 0px 100px;
+}
+.btn-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.filter-btn {
+  font-size: 16px;
+  padding: 10px 10px;
+  margin: 0px 20px;
+  background-color: white;
+  border:black solid 1px;
+  cursor: pointer;
+}
+.filter-btn:hover {
+  background-color: rgb(255, 163, 212);
+}
+.col-quarter {
+  width: 25%;
+  
+}
+.col-half {
+  width: 50%;
+}
+.col {
+  float: left;
+  
+}
+.sub-col {
+  margin: 10px;
+  box-shadow:  2px 2px 2px 2px rgb(202, 202, 202);
+}
+/* .row::after {
+  content: "";
+  display: block;
+  clear: both;
+} */
+
+.detailproduct {
+  margin: 0px 10px;
+}
+.product-img {
+  width: 100%;
+}
+.product-price {
+  padding-top: 10px;
+}
+.sub-product-price {
+  color: red;
+  font-weight: bold;
+  
+}
+.sub-product-tag {
+  color: red;
+  border: red solid 1px;
+  padding: 0px 5px;
+}
+.product-star,
+.product-amount {
+  text-align: right;
+}
+.sub-product-star {
+  width: 20px;
+  
+}
+.product-btn {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.sub-product-btn {
+  background-color: orange;
+  color:white;
+  border: 0px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.hotsalse {
+  text-align: center;
+}
+.feedback-title {
+  text-align: center;
+}
+.feedback-box {
+  padding-bottom: 100px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
